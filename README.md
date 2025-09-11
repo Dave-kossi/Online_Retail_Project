@@ -12,5 +12,5 @@ Il s’agit d’un jeu de données réel contenant :
 > 🎯 Objectif : Explorer les données, identifier les tendances clés, comprendre le comportement des clients et créer une **application interactive** permettant de naviguer dans toutes les analyses.
 
 ---
-## Nettoyages du Dataset
+## Nettoyage du Dataset
 ---
