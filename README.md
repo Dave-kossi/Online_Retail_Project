@@ -71,16 +71,30 @@ pip install -r requirements.txt
 
 ## Lancement de l`application:
 streamlit run visual.py
+---
+## 📌 Résultats Clés
 
-##📌 Résultats Clés
+#### Identification des mois et jours les plus rentables
 
-####Identification des mois et jours les plus rentables
+#### Découverte du top 10 des produits et pays les plus générateurs de CA
 
-####Découverte du top 10 des produits et pays les plus générateurs de CA
+#### Vérification de la règle de Pareto (80/20) appliquée aux ventes
 
-####Vérification de la règle de Pareto (80/20) appliquée aux ventes
+#### Segmentation RFM pour cibler les clients selon leur fidélité et leur valeur
 
-####Segmentation RFM pour cibler les clients selon leur fidélité et leur valeur
+#### Génération de recommandations business pour augmenter les ventes et réduire les annulations
 
-####Génération de recommandations business pour augmenter les ventes et réduire les annulations
+---
 
+## 👤 Auteur
+
+Ce projet a été conçu et réalisé par :
+
+**Kossi Noumagno**  
+🎓 Étudiant en Master Ingénierie Mathématique et Data Science  
+📍 Université de Haute-Alsace (France) 
+**LinkedIn :** [linkedin.com/in/kossi-noumagno](https://www.linkedin.com/in/kossi-noumagno/)  
+**Portfolio :** [dave-kossi.github.io/mon_portfolio](https://dave-kossi.github.io/mon_portfolio/)  
+**GitHub :** [github.com/Dave-kossi](https://github.com/Dave-kossi)
+
+> 💡 N'hésitez pas à me contacter pour toute collaboration, opportunité professionnelle ou suggestion d'amélioration de ce projet.
