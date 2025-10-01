@@ -16,7 +16,7 @@ Il s’agit d’un jeu de données réel contenant :
 - Sur la période **décembre 2010 à décembre 2011**
 - Plus de **500 000 lignes** de données (achats, retours, clients, pays, etc.)
 
-> 🎯 Objectif : Explorer les données, identifier les tendances clés, comprendre le comportement des clients et créer une **application interactive** permettant de naviguer dans toutes les analyses.
+> 🎯 Objectif : Explorer les données, identifier les tendances clés, comprendre le comportement des clients par pays et créer une **application interactive avec streamlit** permettant de naviguer dans toutes les analyses.
 
 ---
 
