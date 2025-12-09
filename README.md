@@ -1,4 +1,4 @@
-# 🛍️ Analyse Complète du Jeu de Données Online Retail
+#  Analyse Complète du Jeu de Données Online Retail
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/Licence-MIT-green)
 ![Status](https://img.shields.io/badge/Statut-En%20Cours-yellow)
 
-## 📌 Présentation
+## Présentation
 
 Ce projet est une **analyse exploratoire et approfondie (EDA)** du jeu de données **Online Retail**, disponible sur le [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/online+retail).  
 Il s’agit d’un jeu de données réel contenant :
@@ -16,7 +16,7 @@ Il s’agit d’un jeu de données réel contenant :
 - Sur la période **décembre 2010 à décembre 2011**
 - Plus de **500 000 lignes** de données (achats, retours, clients, pays, etc.)
 
-> 🎯 Objectif : Explorer les données, identifier les tendances clés, comprendre le comportement des clients par pays et créer une **application interactive avec streamlit** permettant de naviguer dans toutes les analyses.
+> Objectif : Explorer les données, identifier les tendances clés, comprendre le comportement des clients par pays et créer une **application interactive avec streamlit** permettant de naviguer dans toutes les analyses.
 
 ---
 
@@ -56,18 +56,6 @@ Avant toute analyse, les données ont été soigneusement nettoyées :
 - [openpyxl](https://openpyxl.readthedocs.io/en/stable/) pour la lecture du fichier Excel
 
 ---
-
-## 📁 Structure du Projet
-├── visual.py # Script principal Streamlit
-├── Online Retail.xlsx # Jeu de données source
-├── requirements.txt # Dépendances du projet
-└── README.md # Documentation
-
-##Créer un environnement virtuel et installer les dépendances :
-python -m venv venv
-source venv/bin/activate      # Sur macOS / Linux
-venv\Scripts\activate         # Sur Windows
-pip install -r requirements.txt
 
 ## Lancement de l`application:
 streamlit run visual.py
