@@ -5,7 +5,7 @@ import streamlit as st
 
 # === 1. Configuration ===
 st.set_page_config(page_title="Analyse Online Retail", layout="wide")
-st.title("📊 Analyse du jeu de données Online Retail")
+st.title("Analyse du jeu de données Online Retail")
 
 # === 2. Chargement des données ===
 @st.cache_data
