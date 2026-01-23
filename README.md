@@ -1,62 +1,57 @@
-PRÉSENTATION
-------------
+#  Analyse Interactive des Ventes : Online Retail Dashboard
 
-Ce projet est une analyse exploratoire et approfondie (EDA) du jeu de données Online Retail (UCI Machine Learning Repository).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-Il s’agit d’un jeu de données réel contenant :
-* Les transactions d’une boutique en ligne basée au Royaume-Uni.
-* Sur la période : décembre 2010 à décembre 2011.
-* Volume de données : Plus de 500 000 lignes (achats, retours, clients, pays, etc.).
+## 📋 Présentation du Projet
+Ce projet transforme le dataset **Online Retail** de l'UCI Machine Learning Repository en un outil de Business Intelligence interactif. L'application permet d'explorer plus de 500 000 transactions réelles d'une boutique en ligne britannique, facilitant la prise de décision stratégique par la donnée.
 
-OBJECTIF : Explorer les données, identifier les tendances clés, comprendre le comportement des clients par pays et créer une application interactive avec Streamlit permettant de naviguer dans toutes les analyses.
+****
 
-NETTOYAGE DU DATASET
---------------------
+---
 
-Avant toute analyse, les données ont été soigneusement nettoyées et préparées :
+## 🛠️ Pipeline de Traitement des Données
+Le code intègre un moteur de nettoyage robuste pour garantir la précision des indicateurs :
+* **Nettoyage :** Suppression automatique des `CustomerID` manquants et des doublons.
+* **Filtrage Intelligent :** Élimination des valeurs aberrantes de quantité via la méthode des quartiles (Q1/Q3).
+* **Feature Engineering :** Extraction granulaire des périodes (Heures, Jours, Semaines, Mois) et calcul dynamique du Revenu.
+* **Gestion des Annulations :** Traitement spécifique des codes `InvoiceNo` commençant par "C".
 
-* Suppression des valeurs manquantes sur les CustomerID.
-* Suppression des doublons.
-* Filtrage des transactions avec UnitPrice négatif ou nul.
-* Identification et traitement des annulations (InvoiceNo commençant par 'C').
-* Suppression des valeurs aberrantes sur les quantités.
-* Ajout de nouvelles colonnes temporelles (Année, Mois, Jour, Heure, etc.).
-* Calcul d’une colonne Revenue pour chaque transaction.
+---
 
-ANALYSES RÉALISÉES
--------------------
+##  Fonctionnalités Clés de l'Application
 
-* KPI Exécutifs : CA total, nombre de commandes, nombre de clients, panier moyen, retours et annulations.
-* Analyse géographique : Top pays par chiffre d’affaires et carte choroplèthe.
-* Top produits par pays : Classement des 10 produits les plus générateurs de CA.
-* Analyse de Pareto (80/20) : Identifier les produits qui génèrent 80 % du CA.
-* Analyse temporelle : Mois les plus fructueux, évolution hebdomadaire/mensuelle/annuelle.
-* Analyse de saisonnalité : CA par jour de la semaine et par mois.
-* Analyse RFM (Récence-Fréquence-Monétaire) : Segmentation des clients.
-* Recommandations stratégiques : Axées sur les insights obtenus.
+### 1. Tableau de Bord Exécutif (KPIs)
+Aperçu instantané de la santé financière : Chiffre d'Affaires, Panier Moyen, Taux d'Annulation et de Retour.
 
-TECHNOLOGIES UTILISÉES
------------------------
+### 2. Analyse Géographique Dynamique
+Carte choroplèthe interactive permettant de visualiser la performance par pays avec des options de filtrage en temps réel dans la barre latérale.
 
-* Python (3.10+)
-* Pandas
-* NumPy
-* Plotly
-* Streamlit
-* openpyxl
 
-LANCEMENT DE L'APPLICATION
---------------------------
+### 3. Segmentation Client RFM
+Calcul automatique des scores de **Récence, Fréquence et Montant** pour classer les clients en segments : *Champions, Fidèles, À risque, ou À perdre*.
 
-Pour lancer l'application interactive :
 
-streamlit run visual.py
+### 4. Analyse de Pareto (80/20)
+Visualisation combinée (Barres + Courbe de cumul) pour identifier les 20% de produits générant 80% du revenu total.
 
-RÉSULTATS CLÉS
---------------
 
-* Identification des mois et jours les plus rentables.
-* Découverte du top 10 des produits et pays les plus générateurs de CA.
-* Vérification de la règle de Pareto (80/20) appliquée aux ventes.
-* Segmentation RFM pour cibler les clients selon leur fidélité et leur valeur.
-* Génération de recommandations business pour augmenter les ventes et réduire les annulations.
+---
+
+## 💻 Aperçu de l'Interface
+*Prenez une capture d'écran de votre application lancée et remplacez le lien ci-dessous*
+![Capture d'écran de l'application](https://via.placeholder.com/800x400?text=Aperçu+Streamlit+Online+Retail)
+
+---
+
+## ⚙️ Installation et Utilisation
+
+### Prérequis
+* Python 3.10+
+* Le fichier `Online Retail.xlsx` à la racine du projet.
+
+### Installation
+1. Clonez le dépôt :
+   ```bash
+   git clone [https://github.com/Dave-kossi/online-retail-analysis.git](https://github.com/votre-nom/online-retail-analysis.git)
