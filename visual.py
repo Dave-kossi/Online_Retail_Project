@@ -7,7 +7,7 @@ import numpy as np
 
 # === 1. CONFIGURATION ===
 st.set_page_config(page_title="Analyse Online Retail", layout="wide", page_icon="📊")
-st.title("📊 Analyse Complète - Dataset Online Retail")
+st.title("Analyse Complète - Dataset Online Retail")
 
 # Palette de couleurs cohérente
 COLOR_SEQ = px.colors.qualitative.Set3
@@ -228,7 +228,7 @@ if len(selected_countries) <= 10:
             st.info(f"Aucune donnée de vente pour {country}")
 
 # === 8. ANALYSE PARETO DES PRODUITS ===
-st.header("📊 Analyse Pareto des Produits")
+st.header(" Analyse Pareto des Produits")
 
 # Analyse Pareto globale
 pareto_df = ventes.groupby("Description")["Revenue"].sum().reset_index()
@@ -454,7 +454,7 @@ fig_evolution.update_layout(
 st.plotly_chart(fig_evolution, use_container_width=True)
 
 # === 10.3 STATISTIQUES TEMPORELLES ===
-st.subheader("📊 Statistiques Temporelles")
+st.subheader("Statistiques Temporelles")
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -594,7 +594,7 @@ with col2:
 st.markdown("---")
 st.header("📤 Export des Données")
 
-if st.button("📊 Générer Rapport Complet"):
+if st.button("Générer Rapport Complet"):
     rapport = {
         "Période": f"{start_date} to {end_date}",
         "Pays": len(selected_countries),
