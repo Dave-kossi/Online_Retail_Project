@@ -4,14 +4,14 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-## 📋 Présentation du Projet
+## Présentation du Projet
 Ce projet transforme le dataset **Online Retail** de l'UCI Machine Learning Repository en un outil de Business Intelligence interactif. L'application permet d'explorer plus de 500 000 transactions réelles d'une boutique en ligne britannique, facilitant la prise de décision stratégique par la donnée.
 
 ****
 
 ---
 
-## 🛠️ Pipeline de Traitement des Données
+## Pipeline de Traitement des Données
 Le code intègre un moteur de nettoyage robuste pour garantir la précision des indicateurs :
 * **Nettoyage :** Suppression automatique des `CustomerID` manquants et des doublons.
 * **Filtrage Intelligent :** Élimination des valeurs aberrantes de quantité via la méthode des quartiles (Q1/Q3).
@@ -39,13 +39,13 @@ Visualisation combinée (Barres + Courbe de cumul) pour identifier les 20% de pr
 
 ---
 
-## 💻 Aperçu de l'Interface
+##  Aperçu de l'Interface
 *Prenez une capture d'écran de votre application lancée et remplacez le lien ci-dessous*
 ![Capture d'écran de l'application](https://via.placeholder.com/800x400?text=Aperçu+Streamlit+Online+Retail)
 
 ---
 
-## ⚙️ Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 * Python 3.10+
